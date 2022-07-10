@@ -1,0 +1,75 @@
+Project-04
+Dylan Parker
+
+
+<Nodes>
+Symbol	Address	x	y
+A	1121 N Bend Rd.	263	147
+B	1521 Grassland Ave.	110	129
+C	22 Main St.	155	213
+D	44 W Lexington Ave.	244	273
+E	4423 Walnut St.	275	69
+F	1616 Levington Blvd.	165	291
+G	2402 N Bend Rd.	196	153
+H	33 Holden Ave.	27	80
+I	3411 Walnut St.	369	65
+J	44 Kirkland Dr.	81	308
+K	14 Pepper Ave.	110	32
+L	3311 N Bend Rd.	37	175
+M	15 Goodman Dr.	136	384
+N	510 Lake St.	229	366
+O	1600 N Bend Rd.	341	151
+P	55 Main St.	247	213
+Q	5500 Walnut St.	188	70
+R	11 Savannah Dr.	82	231
+S	20  Hopper Blvd.	320	329
+T	9810 Miami Blvd.	335	235
+</Nodes>
+
+/*********************************************************
+	Added a Construction Crew Number/Cost
+/*********************************************************
+<Edges>
+Source	Destination	TimeCost	DistanceCost	ConCost
+A	C	4	8	5
+A	Q	3	6	9
+A	T	5	10	1
+B	G	6	12	0
+B	H	8	16	0
+B	Q	2	16	8
+B	R	5	10	7
+C	D	2	4	4
+C	J	8	16	2
+C	L	8	16	5
+D	F	4	8	0
+D	N	7	14	3
+D	T	1	4	2
+E	G	8	5	1
+E	I	7	14	1
+E	O	4	8	1
+E	Q	3	6	0
+F	M	10	20	4
+F	R	6	16	2
+G	D	1	60	9
+H	K	6	12	6
+H	L	2	5	3
+I	E	5	14	2
+J	C	7	16	1
+K	H	4	12	7
+L	C	2	16	8
+L	H	1	5	99
+M	F	6	20	5
+N	S	4	8	2
+O	E	7	8	4
+O	P	4	8	1
+P	C	4	8	0
+P	F	8	4	0
+P	O	3	8	9
+P	T	7	14	8
+Q	B	8	16	7
+R	F	8	16	6
+S	D	3	6	19
+S	T	6	9	3
+T	D	2	4	3
+T	S	4	9	7
+</Edges>
